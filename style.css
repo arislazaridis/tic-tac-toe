@@ -1,0 +1,59 @@
+.square {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+}
+
+.cell {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(191, 190, 190);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#gameContainer {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 306px;
+  margin: 50px auto;
+  box-shadow: 10px 10px 8px #888888;
+}
+
+.displayResult {
+  text-align: center;
+  color: red;
+}
+
+.game-restart {
+  margin: 0 auto;
+  display: block;
+}
+
+#element {
+  color: white;
+}
+
+.player-stats {
+  text-align: center;
+}
+
+.game-statistics {
+  background-color: green;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 0%;
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
